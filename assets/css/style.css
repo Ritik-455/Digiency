@@ -919,7 +919,8 @@ ul {
 @media (max-width:992px) {
     .mobile_view {
         position: absolute;
-        background-color: #FFF7F4;
+        background-color: transparent;
+        backdrop-filter: blur(50px);
         height: 100vh;
         width: 100%;
         top: 0;
